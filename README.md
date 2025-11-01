@@ -1,3 +1,0 @@
-# gender
-
-she/they girlthing
