@@ -30,9 +30,7 @@
           "iptables"
           "FD.io's VPP"
           "FRRouting"
-
           "wireguard"
-          "nebula"
           "mullvad"
         ];
 
