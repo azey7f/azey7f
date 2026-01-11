@@ -12,10 +12,11 @@
       term = "kitty";
     };
 
-    # see https://git.azey.net/infra/nixos-servers
+    # see https://git.maevi.net/infra/nixos-servers
     infra = {
       domains = [
-        "azey.net"
+        "maevi.net"
+        "azey.net" # NOTE: deprecated
         "REDACTED FOR PRIVACY"
       ];
 
@@ -66,13 +67,13 @@
         "C"
         "C++"
         "shell"
+        "C#"
         "DNS zone files"
         "javascript"
       ];
       rusty = [
         "x86 asm"
         "SQL"
-        "C#"
         "lua"
       ];
       basics = ["zig" "go"];
@@ -85,7 +86,7 @@
       "rock"
       "various OSTs"
     ];
-    streamingService = "https://navidrome.azey.net"; # guest:
+    streamingService = "https://navidrome.maevi.net"; # guest:
 
     instruments = {
       proficient = [];
